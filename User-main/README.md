@@ -69,10 +69,6 @@ The UI Service serves as the frontend built with Vue 3.
 
 Follow the steps below to set up and run the services:
 
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://git.chalmers.se/courses/dit355/2023/student-teams/dit356-2023-07/User.git
 ## **Install Dependencies**
 
 Navigate to each service folder and install dependencies:
