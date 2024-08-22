@@ -17,7 +17,7 @@ class ProductionConfig(Config):
     MONGO_DB_USERNAME = os.getenv('MONGO_DB_USERNAME', 'default_username')
     MONGO_DB_PASSWORD = os.getenv('MONGO_DB_PASSWORD', 'default_password')
     DATABASE_PORT =  os.getenv('DATABASE_PORT', '27017')
-    DATABASE_URI = f'mongodb+srv://{MONGO_DB_USERNAME}:{MONGO_DB_PASSWORD}@aslan.im1wsjq.mongodb.net/{DATABASE_PORT}'
+    DATABASE_URI = f'mongodb+srv://{MONGO_DB_USERNAME}:{MONGO_DB_PASSWORD}@test.im1wsjq.mongodb.net/{DATABASE_PORT}'
     DEBUG = False
     TESTING = False
     PORT=5000
